@@ -1,0 +1,24 @@
+<<<<<<< HEAD
+@media (min-width: 500px) {
+    header {
+      background-color: #c25c5c;
+      color: #ffffff;
+    }
+  
+    main {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+=======
+@media (min-width: 500px) {
+    header {
+      background-color: #c25c5c;
+      color: #ffffff;
+    }
+  
+    main {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+>>>>>>> 0f8ce69 (filtered-temples)
+  
