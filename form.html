@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Membership Application</title>
+  <link rel="stylesheet" href="styles/form.css" />
+</head>
+<body>
+    <div class="wrapper">
+  <div class="container">  
+  <header>
+    <h1>Product Review Form</h1>
+  </header>
+  </div>
+  <main class="container">
+<label for="productName">Product Name</label>
+    <select id="productName" name="productName" required>
+    <option value="" disabled selected>Choose a Product ...</option>
+    <!-- options added by JS -->
+    </select>
+
+<label>Overall Rating</label>
+<div class="rating">
+  <label>&star;</label><input type="radio" id="rating1" name="rating" value="1" required>
+  <label>&star;&star;</label><input type="radio" id="rating2" name="rating" value="2">
+  <label>&star;&star;&star;</label><input type="radio" id="rating3" name="rating" value="3">
+  <label>&star;&star;&star;&star;</label><input type="radio" id="rating4" name="rating" value="4">
+  <label>&star;&star;&star;&star;&star;</label><input type="radio" id="rating5" name="rating" value="5">
+</div>
+
+<label for="installDate">Date of Installation</label>
+<input type="date" id="installDate" name="installDate" required>
+
+<label>Which features did you find useful in the product?<br><span class="optional">(Check all that apply)</span></label>
+<div class="features">
+  <label><input type="checkbox" name="features" value="durability"> Durability</label>
+  <label><input type="checkbox" name="features" value="ease"> Ease of Use</label>
+  <label><input type="checkbox" name="features" value="performance"> Performance</label>
+  <label><input type="checkbox" name="features" value="design"> Design</label>
+</div>
+
+<label for="review">Written Review <span class="optional">(Optional)</span></label>
+<textarea id="review" name="review"></textarea>
+
+<label for="username">Your Name <span class="optional">(Optional)</span></label>
+<input type="text" id="username" name="username">
+
+<input type="submit" value="Post Review">
+  </main>
+
+  <div class="container"> 
+  <footer> 
+    <p>&copy; <span id="year"></span> | Product Review Form | All rights reserved.</p>
+  </footer>
+  </div>
+
+  <script src="scripts/form.js"></script>
+</div>
+</body>
+</html>
+
