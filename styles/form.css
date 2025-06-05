@@ -1,4 +1,3 @@
-/* General Reset */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -15,7 +14,6 @@ body {
   padding: 1rem;
 }
 
-/* Header */
 header {
   background-color: #4e4e4e;
   color: white;
@@ -27,7 +25,6 @@ header {
   font-weight: bold;
 }
 
-/* Main Container */
 .container {
   background-color: #d8d0e0;
   width: 400px;
@@ -41,7 +38,6 @@ form {
   gap: 1rem;
 }
 
-/* Labels */
 label {
   font-weight: bold;
   margin-bottom: 0.3rem;
@@ -54,7 +50,6 @@ label {
   color: #444;
 }
 
-/* Inputs and Select */
 input[type="text"],
 input[type="date"],
 select,
@@ -66,7 +61,6 @@ textarea {
   width: 100%;
 }
 
-/* Rating Stars */
 .rating {
   display: flex;
   justify-content: space-between;
@@ -81,7 +75,6 @@ textarea {
   margin-right: 0.5rem;
 }
 
-/* Features Checkboxes */
 .features {
   display: flex;
   flex-direction: column;
@@ -92,13 +85,11 @@ textarea {
   font-weight: normal;
 }
 
-/* Textarea */
 textarea {
   height: 100px;
   resize: vertical;
 }
 
-/* Submit Button */
 input[type="submit"] {
   background-color: #e8e4f2;
   width: 100%;
@@ -115,7 +106,6 @@ input[type="submit"]:hover {
   background-color: #0501ff;
 }
 
-/* Footer */
 footer {
   background-color: #4e4e4e;
   color: white;
